@@ -16,7 +16,7 @@ let js = {
                 }
             }
         },
-        empty: function (targetSelector){
+        empty: function (targetSelector){ // MAKE THIS A TASK!!!
             js.dom.write(targetSelector, "");
         },
         remove: function (targetSelector){
