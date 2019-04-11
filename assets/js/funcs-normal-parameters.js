@@ -22,6 +22,13 @@ function manipulateClass(targetSelector, className, isAdd = true) {
 }
 
 window.onload = function () {
+
+    let cars = ["Sally", "McQueen", "Luigi"];
+
+    delete cars[1];
+
+
+
     manipulateClass("#block1", "red", false);
     manipulateClass(".block2", "blue");
     manipulateClass("textarea", "green");
