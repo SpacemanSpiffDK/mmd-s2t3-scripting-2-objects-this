@@ -76,7 +76,6 @@ let js = {
     },
     array: {
         randomItem: function (arr) {
-            // parameter: arr - an array
             let randomIndex = js.math.randomIndex(arr.length - 1)
             return arr[randomIndex];
         }
@@ -85,8 +84,8 @@ let js = {
 
 window.onload = function () {
 
-    // let testArray = ["one", "two", "three"];
-    // alert(js.array.randomItem(testArray));
+    // let cars = ["Sally", "McQueen", "Luigi"];
+    // alert(js.array.randomItem(cars));
     // console.log(js.array.randomItem(testArray));
 
     // js.dom.class.manipulate({targetSelector: ".block2", className: "red"});
