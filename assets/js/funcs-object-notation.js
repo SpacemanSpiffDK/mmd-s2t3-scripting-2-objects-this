@@ -86,7 +86,6 @@ window.onload = function () {
 
     // let cars = ["Sally", "McQueen", "Luigi"];
     // alert(js.array.randomItem(cars));
-    // console.log(js.array.randomItem(testArray));
 
     // js.dom.class.manipulate({targetSelector: ".block2", className: "red"});
     // js.dom.class.add("#block1", "blue");
