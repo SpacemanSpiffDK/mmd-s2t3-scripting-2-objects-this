@@ -1,7 +1,7 @@
 // functions in a JSON object
 
 let js = {
-    DOM: {
+    dom: {
         find: function (targetSelector) {
             let elms = document.querySelectorAll(targetSelector);
             return elms;
@@ -16,7 +16,7 @@ let js = {
                 }
             }
         },
-        empty: function (targetSelector){ // MAKE THIS A TASK!!!
+        empty: function (targetSelector){
             js.dom.write(targetSelector, "");
         },
         remove: function (targetSelector){
@@ -75,7 +75,7 @@ let js = {
         }
     },
     array: {
-        randomItem (arr) {
+        randomItem: function (arr) {
             // parameter: arr - an array
             let randomIndex = js.math.randomIndex(arr.length - 1)
             return arr[randomIndex];
